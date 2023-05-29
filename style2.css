@@ -204,7 +204,7 @@ p {
 footer {
     background-color: black;
     width: 100%;
-    height: 600px;  
+    height: 300px;  
 }
 
 #contact {
@@ -222,4 +222,459 @@ footer {
 .email {
     position: absolute;
     right: 350px
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+    background: lightblue;
+    width: 100%;
+    height: 78px;
+    position: fixed;
+    display: flex;
+    margin-top: -125px
+}
+
+p {
+    font-family: Roboto Condensed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s all;
+}
+
+.logo a:hover {
+    color: antiquewhite;
+    transition: 0.5s all;
+}
+
+.logo img {
+    width: 94px;
+    margin: 6px 6px 6px 21px
+}
+
+.logo h1 {
+    margin: auto;
+    font-size: 31px;
+    font-family: Balsamiq Sans;
+}
+
+.menu {
+    position: absolute;
+    right: 62px;
+    display: flex;
+    list-style: none;
+    top: 22px;
+}
+
+.menu li {
+    padding-left: 31px;
+    font-size: 19px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: 0.8s all;
+    font-family: Balsamiq Sans;
+}
+
+.menu a:hover {
+    color: white;
+    transition: 0.8s all;
+}
+
+.full {
+    background-color: white;
+    width: 1000px;
+    height: 1170px;
+    margin: auto;
+    border-right: 1px solid lightblue;
+    border-left: 1px solid lightblue;
+    display: block;
+    margin-top: 31px
+}
+
+.spisok1 {
+    display: flex;
+    height: 312px;
+    margin-top: 125px;
+    justify-content: center
+}
+
+.info1 {
+
+    width: 312px;
+    height: 312px;
+    padding: 0px 19px;
+    width: 100%;
+    height: 344px;
+    transition: 0.5s all;
+}
+
+.spisok2 {
+    display: flex;
+    height: 312px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.info2 {
+    width: 312px;
+    height: 312px;
+    padding: 0px 19px;
+    width: 62%;
+    height: 344px;
+    transition: 0.5s all;
+}
+
+.spisok3 {
+    display: flex;
+    height: 500px;
+    margin-top: 100px;
+    justify-content: center
+}
+
+.info3 {
+
+    width: 312px;
+    height: 312px;
+    padding: 0px 19px;
+    width: 62%;
+    height: 344px;
+    transition: 0.5s all;
+}
+
+.imgs {
+    width: 100%;
+    height: 187px;
+    padding: 6px
+}
+
+
+.info1 h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+    font-size: 25px
+}
+
+.info1 p {
+    color: white;
+    padding: 6px;
+    font-size: 9px
+}
+
+.info1 a {
+    color: white;
+}
+
+.info1:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+
+
+.info2 h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+    font-size: 25px
+}
+
+.info2 p {
+    color: white;
+    padding: 6px;
+    font-size: 9px
+}
+
+.info2 a {
+    color: white;
+}
+
+.info2:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+
+
+
+.info3 h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+    font-size: 25px
+}
+
+.info3 p {
+    color: white;
+    padding: 6px;
+    font-size: 9px
+}
+
+.info3 a {
+    color: white;
+}
+
+.info3:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 250px;  
+}
+
+#contact {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-top: 31px
+}
+
+.numbers {
+    position: absolute;
+    left: 219px;
+}
+
+.email {
+    position: absolute;
+    right: 219px
+}
+}
+
+@media screen and (max-width: 960px) {
+    header {
+    background: lightblue;
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    display: flex;
+    margin-top: -90px
+}
+
+p {
+    font-family: Roboto Condensed;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s all;
+}
+
+.logo a:hover {
+    color: antiquewhite;
+    transition: 0.5s all;
+}
+
+.logo img {
+    width: 59px;
+    margin: 6px 6px 6px 21px
+}
+
+.logo h1 {
+    margin: auto;
+    font-size: 22px;
+    font-family: Balsamiq Sans;
+}
+
+.menu {
+    position: absolute;
+    right: 44px;
+    display: flex;
+    list-style: none;
+    top: 18px;
+}
+
+.menu li {
+    padding-left: 22px;
+    font-size: 14px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    transition: 0.8s all;
+    font-family: Balsamiq Sans;
+}
+
+.menu a:hover {
+    color: white;
+    transition: 0.8s all;
+}
+
+.full {
+    background-color: white;
+    width: 714px;
+    height: 870px;
+    margin: auto;
+    border-right: 1px solid lightblue;
+    border-left: 1px solid lightblue;
+    display: block;
+    margin-top: 31px
+}
+
+.spisok1 {
+    display: flex;
+    height: 223px;
+    margin-top: 90px;
+    justify-content: center
+}
+
+.info1 {
+
+    width: 219px;
+    height: 219px;
+    padding: 0px 14px;
+    width: 100%;
+    height: 245px;
+    transition: 0.5s all;
+}
+
+.spisok2 {
+    display: flex;
+    height: 223px;
+    margin-top: 90px;
+    justify-content: center;
+}
+
+.info2 {
+    width: 219px;
+    height: 219px;
+    padding: 0px 14px;
+    width: 100%;
+    height: 245px;
+    transition: 0.5s all;
+}
+
+.spisok3 {
+    display: flex;
+    height: 223px;
+    margin-top: 90px;
+    justify-content: center
+}
+
+.info3 {
+    width: 219px;
+    height: 219px;
+    padding: 0px 14px;
+    width: 100%;
+    height: 245px;
+    transition: 0.5s all;
+}
+
+.imgs {
+    width: 100%;
+    height: 134px;
+    padding: 4px
+}
+
+
+.info1 h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+    font-size: 18px
+}
+
+.info1 p {
+    color: white;
+    padding: 4px;
+    font-size: 8px
+}
+
+.info1 a {
+    color: white;
+}
+
+.info1:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+
+
+.info2 h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+    font-size: 18px
+}
+
+.info2 p {
+    color: white;
+    padding: 4px;
+    font-size: 8px
+}
+
+.info2 a {
+    color: white;
+}
+
+.info2:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+
+
+
+.info3 h1 {
+    text-align: center;
+    color: white;
+    font-family: Balsamiq Sans;
+    font-size: 18px
+}
+
+.info3 p {
+    color: white;
+    padding: 4px;
+    font-size: 8px
+}
+
+.info3 a {
+    color: white;
+}
+
+.info3:hover {
+    background: #00b5c2;
+    transition: 0.5s all;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 178px;  
+}
+
+#contact {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding-top: 22px
+}
+
+.numbers {
+    position: absolute;
+    left: 156px;
+}
+
+.email {
+    position: absolute;
+    right: 156px
+}
 }
